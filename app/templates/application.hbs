@@ -1,0 +1,176 @@
+<!-- <header id="header" class="media">
+  <nav class="navbar navbar-default">
+      <p class="navbar-text navbar-right">Signed in as <a href="#" class="navbar-link">Adil Mezghouti</a></p>
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">
+          <img alt="Brand" src="/assets/images/logo.png" style="width:31px">
+        </a>
+
+      </div>
+  </nav>
+</header>
+<section id="main" class="container-fluid" role="main">
+  {{google-map latitude=model.latitude longitude=model.longitude markers=model.locations}}
+  {{outlet}}
+</section> -->
+
+<!-- Navbar -->
+<!-- <div class='navbar navbar-default' id='navbar'>
+  <a class="navbar-brand" href="#">
+    <img alt="Brand" src="/assets/images/logo.png" style="width:31px">
+  </a>
+  <ul class='nav navbar-nav pull-right'>
+    <li class='dropdown'>
+      <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+        <i class='icon-envelope'></i>
+        Messages
+        <span class='badge'>5</span>
+        <b class='caret'></b>
+      </a>
+      <ul class='dropdown-menu'>
+        <li>
+          <a href='#'>New message</a>
+        </li>
+        <li>
+          <a href='#'>Inbox</a>
+        </li>
+        <li>
+          <a href='#'>Outbox</a>
+        </li>
+        <li>
+          <a href='#'>Trash</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href='#'>
+        <i class='icon-cog'></i>
+        Settings
+      </a>
+    </li>
+    <li class='dropdown user'>
+      <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+        <i class='icon-user'></i>
+        <strong>John DOE</strong>
+        <img class="img-rounded" src="http://placehold.it/20x20/ccc/777" />
+        <b class='caret'></b>
+      </a>
+      <ul class='dropdown-menu'>
+        <li>
+          <a href='#'>Edit Profile</a>
+        </li>
+        <li class='divider'></li>
+        <li>
+          <a href="/">Sign out</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div> -->
+<div id='wrapper'>
+  <!-- Sidebar -->
+  <section id='sidebar'>
+    <!-- <i class='icon-align-justify icon-large' id='toggle'></i> -->
+    <!-- <a class="navbar-brand" href="#" id='toggle'>
+      <img alt="Brand" src="/assets/images/logo.png" style="width:31px">
+    </a> -->
+    <ul id='dock'>
+      {{#link-to 'index' tag='li' class='launcher'}}
+        <i class='icon-dashboard'></i>
+        <a href='#'>Map</a>
+      {{/link-to}}
+      {{#link-to 'profile' tag='li' class='launcher'}}
+        <i class='icon-file-text-alt'></i>
+        <a href='#'>Profile</a>
+      {{/link-to}}
+      {{#link-to 'login' tag='li' class='launcher'}}
+      <i class='icon-table'></i>
+        <a href='#'>Log in</a>
+      {{/link-to}}
+      
+      <li class='launcher dropdown hover'>
+        <i class='icon-flag'></i>
+        <a href='#'>Reports</a>
+        <ul class='dropdown-menu'>
+          <li class='dropdown-header'>Launcher description</li>
+          <li>
+            <a href='#'>Action</a>
+          </li>
+          <li>
+            <a href='#'>Another action</a>
+          </li>
+          <li>
+            <a href='#'>Something else here</a>
+          </li>
+        </ul>
+      </li>
+      <li class='launcher'>
+        <i class='icon-bookmark'></i>
+        <a href='#'>Bookmarks</a>
+      </li>
+      <li class='launcher'>
+        <i class='icon-cloud'></i>
+        <a href='#'>Backup</a>
+      </li>
+      <li class='launcher'>
+        <i class='icon-bug'></i>
+        <a href='#'>Feedback</a>
+      </li>
+    </ul>
+    <div data-toggle='tooltip' id='beaker' title='Made by Geber Labs'></div>
+  </section>
+  <!-- Tools -->
+  <!-- <section id='tools'>
+    <ul class='breadcrumb' id='breadcrumb'>
+      <li class='title'>Dashboard</li>
+      <li><a href="#">Lorem</a></li>
+      <li class='active'><a href="#">ipsum</a></li>
+    </ul>
+    <div id='toolbar'>
+      <div class='btn-group'>
+        <a class='btn' data-toggle='toolbar-tooltip' href='#' title='Building'>
+          <i class='icon-building'></i>
+        </a>
+        <a class='btn' data-toggle='toolbar-tooltip' href='#' title='Laptop'>
+          <i class='icon-laptop'></i>
+        </a>
+        <a class='btn' data-toggle='toolbar-tooltip' href='#' title='Calendar'>
+          <i class='icon-calendar'></i>
+          <span class='badge'>3</span>
+        </a>
+        <a class='btn' data-toggle='toolbar-tooltip' href='#' title='Lemon'>
+          <i class='icon-lemon'></i>
+        </a>
+      </div>
+      <div class='label label-danger'>
+        Danger
+      </div>
+      <div class='label label-info'>
+        Info
+      </div>
+    </div>
+  </section> -->
+  <!-- Content -->
+  <div id='main'>
+    <div class='panel'>
+      <!-- <div class='panel-heading'>
+        <i class='icon-beer icon-large'></i>
+        Hierapolis Rocks!
+        <div class='panel-tools'>
+          <div class='btn-group'>
+            <a class='btn' href='#'>
+              <i class='icon-refresh'></i>
+              Refresh statics
+            </a>
+            <a class='btn' data-toggle='toolbar-tooltip' href='#' title='Toggle'>
+              <i class='icon-chevron-down'></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class='panel-body '> -->
+      {{outlet}}
+      <!-- </div> -->
+    </div>
+  </div>
+</div>

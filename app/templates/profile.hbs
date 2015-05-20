@@ -1,0 +1,63 @@
+<div class='panel panel-default'>
+  <div class='panel-heading'>
+    <i class='icon-edit icon-large'></i>
+    Profil de {{username}}
+  </div>
+  <div class='panel-body'>
+    <form class='form-horizontal'>
+      <fieldset>
+        <legend>Utilisateur</legend>
+        <div class='form-group'>
+          <label class='col-lg-2 control-label'>Titre</label>
+          <div class='col-lg-10'>
+            <input class='form-control' placeholder='Enter title' type='text'>
+          </div>
+        </div>
+        <div class='form-group'>
+          <label class='col-lg-2 control-label'>Nom & Prenom</label>
+          <div class='col-lg-10'>
+            <input class='form-control' placeholder='Enter username' type='text'>
+          </div>
+        </div>
+        <div class='form-group'>
+          <label class='col-lg-2 control-label'>Mot de passe</label>
+          <div class='col-lg-10'>
+            <input class='form-control' placeholder='Enter password' type='password'>
+          </div>
+        </div>
+
+        <legend>Pharmacie</legend>
+        <div class='form-group has-warning'>
+          <label class='col-lg-2 control-label'>Nom</label>
+          <div class='col-lg-10'>
+            <input class='form-control' placeholder='Enter pharmacy name' type='text'>
+          </div>
+        </div>
+        <div class='form-group has-error'>
+          <label class='col-lg-2 control-label'>Addresse</label>
+          <div class='col-lg-10'>
+            <input class='form-control' placeholder='Enter pharmacy address' type='text'>
+          </div>
+        </div>
+        <div class='form-group has-success'>
+          <label class='col-lg-2 control-label'>Latitude</label>
+          <div class='col-lg-10'>
+            <input class='form-control' placeholder='Enter pharmacy latitude'>
+            <p class='help-block'>Use google maps to find the location and then paste the value above</p>
+          </div>
+        </div>
+        <div class='form-group has-success'>
+          <label class='col-lg-2 control-label'>Longitude</label>
+          <div class='col-lg-10'>
+            <input class='form-control' placeholder='Enter pharmacy longitude'>
+            <p class='help-block'>Use google maps to find the location and then paste the value above</p>
+          </div>
+        </div>
+      </fieldset>
+      <div class='form-actions'>
+        <button class='btn btn-default btn-success' type='submit'>Save</button>
+        <button class='btn btn-default btn-danger' type='submit'>Cancel</button>
+      </div>
+    </form>
+  </div>
+</div>
