@@ -8,7 +8,7 @@ export default Ember.Route.extend({
       $('#sidebar').show();
     })
 
-    this.store.find('company').then(function(locations){
+    this.store.find('company').then(function(locations) {
       model = Ember.Object.create({
         locations: locations.content
       });

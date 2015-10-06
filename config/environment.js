@@ -25,7 +25,7 @@ module.exports = function(environment) {
     'img-src': "'self' https://*.google.com https://*.googleapis.com https://*.gstatic.com http://placehold.it/20x20/ccc/777",
     'font-src': "'self' https://*.gstatic.com http://netdna.bootstrapcdn.com",
     'style-src': "'self' 'unsafe-inline' https://*.googleapis.com http://netdna.bootstrapcdn.com",
-    'connect-src': "'self' ws://130.211.58.230:35729 http://localhost:3000 http://130.211.58.230:3000 http://localhost:3000/api/locations",
+    'connect-src': "'self' ws://130.211.58.230:35729 http://localhost:3000 http://130.211.58.230:3000 http://130.211.58.230:3000/api/locations",
     'frame-src': "'self' https://*.googleapis.com https://*.gstatic.com https://*.google.com"
   }
 

@@ -1,3 +1,10 @@
+#pharmacies-show {
+  display:none;
+  width:31px !important;
+  height:30px;
+  background:url("/assets/images/pharma-icon.png") -41px 0 no-repeat;
+}
+
 .panel, .panel-body, .ember-view {
   height: 100%;
 }
